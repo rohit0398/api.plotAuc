@@ -20,6 +20,7 @@ const userSchema = new mongoose.Schema({
     unique: true,
   },
   password: String,
+  role: String, //USER, ADMIN, MODERATOR
   address: String,
   createdAt: Date,
   updatedAt: Date,
